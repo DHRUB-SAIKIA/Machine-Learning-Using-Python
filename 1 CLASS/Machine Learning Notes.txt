@@ -1,0 +1,169 @@
+=====================================================
+MACHINE LEARNING (ML)
+=====================================================
+
+--------------------------------------------------
+1. RELATIONSHIP BETWEEN AI AND ITS SUBFIELDS
+--------------------------------------------------
+
+Artificial Intelligence (A.I) is the broadest field, and it contains
+several overlapping/related subfields, including:
+
+    - M.L  -> Machine Learning
+    - D.S  -> Data Science
+    - C.V  -> Computer Vision
+    - D.L  -> Deep Learning
+
+All of these (ML, DS, CV, DL) exist as subsets/branches under the
+larger umbrella of Artificial Intelligence.
+
+Machine Learning (M.L) itself further branches out into different
+TYPES OF LEARNING:
+
+    M.L
+     |
+     |--- S.L  -> Supervised Learning
+     |--- U.L  -> Unsupervised Learning
+     |--- R.L  -> Reinforcement Learning
+     |--- S.SL -> Semi-Supervised Learning
+
+--------------------------------------------------
+2. DEFINITION OF MACHINE LEARNING
+--------------------------------------------------
+
+- ML is a subset of AI that involves the use of algorithms and
+  statistical models to enable computers to perform tasks WITHOUT
+  explicit instructions.
+
+- ML Algorithms are trained/based on data. They use training data
+  to make decisions/predictions WITHOUT being explicitly programmed
+  to perform that specific task.
+
+  In short: ML = Algorithms + Statistical Models + Data
+            -> Computers learn patterns from data
+            -> Perform tasks without hard-coded/explicit rules
+
+--------------------------------------------------
+3. TYPES OF LEARNING (DETAILED)
+--------------------------------------------------
+
+(A) SUPERVISED LEARNING (S.L)
+------------------------------
+- Involves training a model using a LABELED dataset.
+- "Labeled" means each training example is paired with an output
+  label (i.e., the correct answer is already known).
+- Examples: Linear Regression, Neural Networks.
+
+  Supervised Learning Process (from diagram):
+
+    Input Raw Data
+          |
+          v
+    Training Dataset <---- guided by ---- Supervisor
+          |                                    |
+          |                              Desired Output
+          |                                    |
+          +--------------- combined -----------+
+                         |
+                         v
+                    [Algorithm]
+                  (decision tree /
+                   model structure)
+                         |
+                         v
+                    [Processing]
+                    (gears/processing
+                     unit)
+                         |
+                         v
+                     Output
+                (data separated/classified
+                 into distinct groups —
+                 e.g., green, blue, and red
+                 clusters from a mixed input
+                 set)
+
+  Explanation of Diagram:
+  - Raw input data (a mixed cluster of red, green, and blue points)
+    is fed into the system.
+  - A "Supervisor" provides both the Training Dataset and the
+    Desired Output (the correct/labeled answers).
+  - This labeled information is passed to an Algorithm, which
+    learns the mapping between input and output.
+  - The algorithm's learned model then goes through Processing.
+  - The final Output correctly separates/classifies the data into
+    distinct groups (e.g., segregating the mixed colored points
+    into clean green, blue, and red clusters).
+
+(B) UNSUPERVISED LEARNING (U.L)
+---------------------------------
+- Works with UNLABELED data (no predefined output/labels).
+- The model tries to find hidden patterns or groupings on its own.
+
+(C) SEMI-SUPERVISED LEARNING (S.SL)
+--------------------------------------
+- A combination/hybrid approach that uses a small amount of
+  labeled data along with a larger amount of unlabeled data during
+  training.
+
+(D) REINFORCEMENT LEARNING (R.L)
+-----------------------------------
+- The model (agent) learns by interacting with an environment,
+  receiving rewards or penalties based on actions taken, and
+  improves its behavior over time to maximize rewards.
+
+--------------------------------------------------
+4. APPLICATIONS OF MACHINE LEARNING
+--------------------------------------------------
+
+General Applications (from handwritten notes):
+    - Earlier diagnosis and treatment
+    - Personalized medicine
+    - Streamlined operations
+    - Cost savings
+    - Improved patient experience
+    - Drug discovery and development
+
+Extended Applications (from Machine Learning mind-map chart):
+
+  Healthcare-Focused:
+    - Earlier diagnosis and treatment
+    - Personalized medicine
+    - Streamlined operations
+    - Cost savings
+    - Improved patient experience
+    - Drug discovery and development
+    - Epidemic forecasting
+    - Improved access to healthcare
+    - Medical imaging analysis
+    - Mental health support
+    - Precision surgery
+    - Wearables and remote monitoring
+
+  Business/Industry-Focused:
+    - Clinical trial optimization
+    - Fraud detection
+    - Supply chain optimization
+    - Precision medicine in oncology
+    - Drug repurposing
+    - Predictive maintenance
+
+--------------------------------------------------
+5. QUICK SUMMARY / KEY TAKEAWAYS
+--------------------------------------------------
+
+- AI is the parent field; ML, DL, DS, and CV are related/overlapping
+  branches within it.
+- ML = using algorithms + statistics + data to let computers learn
+  patterns and make decisions without being explicitly programmed.
+- 4 main types of ML: Supervised, Unsupervised, Semi-Supervised,
+  and Reinforcement Learning.
+- Supervised Learning relies on LABELED data (input + desired
+  output) and uses a Supervisor to guide the Algorithm through
+  Training -> Processing -> Output.
+- ML has wide-ranging real-world applications, especially in
+  healthcare (diagnosis, personalized medicine, drug discovery)
+  and business/industry (fraud detection, supply chain, predictive
+  maintenance).
+
+=====================================================
