@@ -1,0 +1,1 @@
+SciPy: It stand for scientific python this is a free open source python lybary us for scintific mathamatical and tecnical computing it is build dirctly on the top of numpy and extends python's capabilities of providing of machin collection of high level mathamatical algoritham and convinence 
