@@ -1,1 +1,5 @@
 Reshape function: It helps us to change the dimentions (structures) of an array without changing the actual data.
+
+Conventional VS ML-Programming
+Conventional programming follows fixed rules created by humans, while machine learning learns patterns from data and improves its decisions through experience.
+
