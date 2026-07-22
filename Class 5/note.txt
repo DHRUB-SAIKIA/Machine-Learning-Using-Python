@@ -1,1 +1,1 @@
-Reshape function: It helps us to change the dimentions (structures) of an array without changing the actual data 
+Reshape function: It helps us to change the dimentions (structures) of an array without changing the actual data.
